@@ -41,16 +41,24 @@ body{background: linear-gradient(to right, #feacd9, #f38eec);  margin: 0.5px;  f
 .porque ul li{text-align: justify; margin:0px 30px 10px 30px;}
 
 .filo h1{text-align: center;}
-.filo p{text-align: justify; margin: 0px 30px;}
-
+.filo p{text-align: justify; margin:0px 30px;}
 .ubi h1{text-align: center;}
 .ubi iframe{border-radius: 20px;}
 
 /*productos*/
 .pre h1{text-align: center;}
-.ficha{ width: 300px; border-radius: 40px; font-family: Arial, Helvetica, sans-serif; margin: 20px; box-shadow: 0 2px 5px rgba(255, 0, 72, 984);}
+.ficha{ width: 300px; border-radius: 40px; font-family: Arial, Helvetica, sans-serif; margin: 20px; box-shadow: 0 2px 5px rgba(255, 0, 72, 984); overflow: hidden; transition: trasform 5s ease-in-out;}
 .ficha img{width: 300px; height: 350px; object-fit: cover; border-radius: 20px;}
 .ficha .infot{padding: 15px;}
 .infot .titulo{ font-size: 1.5rem; text-align: center;}
 .infot .pric{font-size: 1.3rem; margin: 0px 20px; color: default}
 .fichas{ display: flex; justify-content: center; width: 90%; margin: 20px auto;}
+.ficha:hover{transform: scale(1.1);}
+
+/*Rate de compradores*/
+.ty{text-align: center;}
+.reseñas{width: 300px; border-radius: 40px; font-family: Arial, Helvetica, sans-serif; margin: 20px; box-shadow: 0 2px 5px rgba(255, 0, 72,984);}
+.reseñas .men{padding: 15px;}
+.reseñas .titu{font-size: 1.5rem; text-align: center;}
+.reseñas .poi{font-size: 1.3rem; margin: 0px 20px; color: default;}
+.reseña{display: flex; justify-content: center; width: 90%; margin: 20px auto;}
