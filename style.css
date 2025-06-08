@@ -1,38 +1,180 @@
-body{background: linear-gradient(to right, #feacd9, #f38eec);  margin: 0.5px;  font-family: Arial, Helvetica, sans-serif;}
+body {
+    background: linear-gradient(to right, #feacd9, #f38eec);
+    margin: 0.5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 /* Barra de enlaces y opciones */
-.barraa{width: 1810px;  height: 250px;  font-size: 24px;  background: linear-gradient(10deg,#18c991,#45e619);  margin: 0px 0px 0px 0px;  overflow: hidden; border-radius: 0 0 80px 80px;}
-.barraa{display: flex; flex-direction: column; overflow: hidden;}
-.barra{display: flex; flex-direction: row; overflow: hidden;}
-.barraa h1{text-align: center; color: azure;}
-.barraa .lk{ margin: 50px 0px 0px 100px;  text-decoration: none;  transition: transform 0.4s ease;}
-.barraa .lk:hover{  transform: scale(1.2);}
-.barraa #lpk{  margin: 10px 0px 0px 50px;  font-size: 60px;  color: white;}
-.barraa input{  width: 500px;  height: 20px;  margin: 10px 0px 0px 10px;  border-radius: 20px;  transition: transform 0.4s ease;}
-.barraa input:hover{  transform: scale(1.1);}
-.logo{  width: 100px;  height: 100px;  border-radius: 40px;  margin: 0px 0px 0px 70px;  transition: transform 0.4s ease;}
-.logo:hover{  transform:scale(1.1);}
+.barraa {
+    width: 1810px;
+    height: 250px;
+    font-size: 24px;
+    background: linear-gradient(10deg, #18c991, #45e619);
+    margin: 0px 0px 0px 0px;
+    overflow: hidden;
+    border-radius: 0 0 80px 80px;
+}
+
+.barraa {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.barra {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.barraa h1 {
+    text-align: center;
+    color: azure;
+}
+
+.barraa .lk {
+    margin: 50px 0px 0px 100px;
+    text-decoration: none;
+    transition: transform 0.4s ease;
+}
+
+.barraa .lk:hover {
+    transform: scale(1.2);
+}
+
+.barraa #lpk {
+    margin: 10px 0px 0px 50px;
+    font-size: 60px;
+    color: white;
+}
+
+.barraa input {
+    width: 500px;
+    height: 20px;
+    margin: 10px 0px 0px 10px;
+    border-radius: 20px;
+    transition: transform 0.4s ease;
+}
+
+.barraa input:hover {
+    transform: scale(1.1);
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 40px;
+    margin: 0px 0px 0px 70px;
+    transition: transform 0.4s ease;
+}
+
+.logo:hover {
+    transform: scale(1.1);
+}
 
 /* galeria de flores*/
-.galeria{  overflow: hidden;}
-.galeria .ncv{display: flex; flex-direction: row;}
-.galeria .ncv img{width: 500px; height: 500px; margin: 30px 0px 50px 50px; border-radius: 20px;}
-.galeria .ncv .ncvb{margin:30px 0px 0px 90px ; font-size: 20px;}
-.galeria .ncv .ncvb p{margin:0px 50px 0px 80px; text-align: justify;}
-.gal{  text-align: center;  overflow: hidden;}
-.gal h3 a{text-decoration: none;}
-.galeria .gal .lado{margin: 0px 0px 0px 0px; width: 500px; height: 50px;}
-.galeria .ldi{  margin: 20px 0px 0px 20px;  border-radius: 15px;  transition: transform 0.4s ease; height: 300px; width: 400px;}
-.galeria .ldi:hover{  transform: scale(1.1);}
-.galeria .mjk img{width: 500px; height: auto; border-radius: 20px; margin: 0px 50px 0px 0px;}
-.galeria .mjk{display: flex; text-align: justify; font-size: 20px;}
-.galeria .mjk p{margin: 0px 80px 0px 50px ;}
-.galeria .mjk h1{margin: 0px 0px 0px 30px;}
+.galeria {
+    overflow: hidden;
+}
+
+.galeria .ncv {
+    display: flex;
+    flex-direction: row;
+}
+
+.galeria .ncv img {
+    width: 500px;
+    height: 500px;
+    margin: 30px 0px 50px 50px;
+    border-radius: 20px;
+}
+
+.galeria .ncv .ncvb {
+    margin: 30px 0px 0px 90px;
+    font-size: 20px;
+}
+
+.galeria .ncv .ncvb p {
+    margin: 0px 50px 0px 80px;
+    text-align: justify;
+}
+
+.gal {
+    text-align: center;
+    overflow: hidden;
+}
+
+.gal h3 a {
+    text-decoration: none;
+}
+
+.galeria .gal .lado {
+    margin: 0px 0px 0px 0px;
+    width: 500px;
+    height: 50px;
+}
+
+.galeria .ldi {
+    margin: 20px 0px 0px 20px;
+    border-radius: 15px;
+    transition: transform 0.4s ease;
+    height: 300px;
+    width: 400px;
+}
+
+.galeria .ldi:hover {
+    transform: scale(1.1);
+}
+
+.galeria .mjk img {
+    width: 500px;
+    height: auto;
+    border-radius: 20px;
+    margin: 0px 50px 0px 0px;
+}
+
+.galeria .mjk {
+    display: flex;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.galeria .mjk p {
+    margin: 0px 80px 0px 50px;
+}
+
+.galeria .mjk h1 {
+    margin: 0px 0px 0px 30px;
+}
 
 /* Cpyryght*/
-.copy{margin: 50px 0px 0px 0px;  background:linear-gradient(135deg, #19e8d0,#12c72462);  overflow:hidden; border-radius: 90px 90px 0px 0px;}
-.copy #k{text-align: center;}
-.copy .loli{ margin: 0px 0px 0px 100px;}
-.copy .logo{  width: 40px;  height: 40px;  transition: transform 0.4s ease; margin: 0px 0px 0px 0px;}
-.copy .logo:hover{ transform: scale(1.2);}
-.copy #direc{margin: 0px 0px 20px 900px; font-size:25px;}
+.copy {
+    margin: 50px 0px 0px 0px;
+    background: linear-gradient(135deg, #19e8d0, #12c72462);
+    overflow: hidden;
+    border-radius: 90px 90px 0px 0px;
+}
+
+.copy #k {
+    text-align: center;
+}
+
+.copy .loli {
+    margin: 0px 0px 0px 100px;
+}
+
+.copy .logo {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.4s ease;
+    margin: 0px 0px 0px 0px;
+}
+
+.copy .logo:hover {
+    transform: scale(1.2);
+}
+
+.copy #direc {
+    margin: 0px 0px 20px 900px;
+    font-size: 25px;
+}
