@@ -136,13 +136,14 @@ body {
     margin: 0px 30px;
 }
 
-.ubi h1 {
+/*.ubi h1 {
     text-align: center;
 }
 
 .ubi iframe {
     border-radius: 20px;
 }
+*/
 
 /*productos*/
 .pre h1 {
@@ -348,4 +349,8 @@ body {
     background-color: #03508b;
     border-radius: 90px;
     margin: 0px 10px 0px 10px;
+}
+
+.copy #loli {
+    margin: 0px 0px 0px 100px;
 }
