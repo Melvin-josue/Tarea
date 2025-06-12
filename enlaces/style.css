@@ -72,38 +72,6 @@ body {
     transform: scale(1.1);
 }
 
-
-/* Cpyryght*/
-.copy {
-    margin: 50px 0px 0px 0px;
-    background: linear-gradient(135deg, #19e8d0, #12c72462);
-    overflow: hidden;
-}
-
-.copy #k {
-    text-align: center;
-}
-
-.copy #loli {
-    margin: 0px 0px 0px 100px;
-}
-
-.copy .logo {
-    width: 40px;
-    height: 40px;
-    transition: transform 0.4s ease;
-    margin: 0px 0px 0px 0px;
-}
-
-.copy .logo:hover {
-    transform: scale(1.2);
-}
-
-.copy #direc {
-    margin: 0px 0px 20px 900px;
-    font-size: 20px;
-}
-
 /*info sobre nosotros*/
 
 /*horario atencion*/
@@ -210,7 +178,7 @@ body {
 .infot .pric {
     font-size: 1.3rem;
     margin: 0px 20px;
-    color: default
+    color: default;
 }
 
 .fichas {
@@ -275,81 +243,109 @@ body {
 }
 
 .rate {
-    clip-path: polygon(50% 0%, 61% 35%, 98% 35%,
-            68% 57%, 79% 91%, 50% 70%,
-            21% 91%, 32% 57%, 2% 35%,
-            39% 35%);
+    clip-path: polygon(
+        50% 0%,
+        61% 35%,
+        98% 35%,
+        68% 57%,
+        79% 91%,
+        50% 70%,
+        21% 91%,
+        32% 57%,
+        2% 35%,
+        39% 35%
+    );
     background-color: yellow;
     width: 20px;
     height: 20px;
 }
+
 .rates {
-    clip-path: polygon(50% 0%, 61% 35%, 98% 35%,
-            68% 57%, 79% 91%, 50% 70%,
-            21% 91%, 32% 57%, 2% 35%,
-            39% 35%);
-    background-color: rgb(166, 166, 166);
+    clip-path: polygon(
+        50% 0%,
+        61% 35%,
+        98% 35%,
+        68% 57%,
+        79% 91%,
+        50% 70%,
+        21% 91%,
+        32% 57%,
+        2% 35%,
+        39% 35%
+    );
+    background-color: #a6a6a6;
     width: 20px;
     height: 20px;
 }
 
 .ñpl {
-    background-color: rgb(18, 177, 140);
+    background-color: #12b18c;
     border-radius: 90px;
     margin: 0px 10px 0px 10px;
 }
+
 .ñplf {
-    background-color: rgb(2, 105, 81);
+    background-color: #026951;
     border-radius: 90px;
     margin: 0px 10px 0px 10px;
 }
+
 .ñplff {
-    background-color: rgb(182, 42, 161);
+    background-color: #b62aa1;
     border-radius: 90px;
     margin: 0px 10px 0px 10px;
 }
+
 .ñplffg {
-    background-color: rgb(94, 137, 153);
+    background-color: #5e8999;
     border-radius: 90px;
     margin: 0px 10px 0px 10px;
 }
+
 .ñplffgh {
-    background-color: rgb(99, 133, 6);
+    background-color: #638506;
     border-radius: 90px;
     margin: 0px 10px 0px 10px;
 }
+
 .ñplffghj {
-    background-color: rgb(237, 48, 95);
+    background-color: #ed305f;
     border-radius: 90px;
     margin: 0px 10px 0px 10px;
 }
+
 .ñplffghjh {
-    background-color: rgb(187, 13, 13);
+    background-color: #bb0d0d;
     border-radius: 90px;
     margin: 0px 10px 0px 10px;
 }
+
 .ñplffghjhf {
-    background-color: rgb(143, 84, 1);
+    background-color: #8f5401;
     border-radius: 90px;
     margin: 0px 10px 0px 10px;
 }
+
 .ñplffghjhff {
-    background-color: rgb(29, 94, 13);
+    background-color: #1d5e0d;
     border-radius: 90px;
     margin: 0px 10px 0px 10px;
 }
+
 .ñplffghjd {
-    background-color: rgb(131, 22, 174);
+    background-color: #8316ae;
     border-radius: 90px;
     margin: 0px 10px 0px 10px;
 }
+
 .ñplffghjds {
-    background-color: rgb(22, 174, 30);
+    background-color: #15ac1d;
     border-radius: 90px;
     margin: 0px 10px 0px 10px;
 }
+
 .ñplffghjdsd {
-    background-color: rgb(3, 80, 139);
+    background-color: #03508b;
     border-radius: 90px;
     margin: 0px 10px 0px 10px;
 }
