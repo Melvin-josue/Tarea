@@ -1,157 +1,47 @@
 /*Rate de compradores*/
-.ty {
-    text-align: center;
-}
+.ty { text-align: center; }
 
-.reseñas {
-    width: 300px;
-    border-radius: 40px;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 20px;
-    box-shadow: 0 2px 5px rgba(255, 0, 72, 984);
-}
+.reseñas { width: 300px; border-radius: 40px; font-family: Arial, Helvetica, sans-serif; margin: 20px; box-shadow: 0 2px 5px rgba(255, 0, 72, 984); }
 
-.reseñas .men {
-    padding: 15px;
-}
+.reseñas .men { padding: 15px; }
 
-.reseñas .titu {
-    font-size: 1.5rem;
-    text-align: center;
-}
+.reseñas .titu { font-size: 1.5rem; text-align: center; }
 
-.reseñas .poi {
-    font-size: 1.3rem;
-    margin: 0px 20px;
-    color: default;
-}
+.reseñas .poi { font-size: 1.3rem; margin: 0px 20px; color: default; }
 
-.reseña {
-    display: flex;
-    justify-content: center;
-    width: 90%;
-    margin: 20px auto;
-}
+.reseña { display: flex; justify-content: center; width: 90%; margin: 20px auto; }
 
-.but {
-    display: flex;
-}
+.but { display: flex; }
 
-.ñp {
-    background-color: brown;
-    border-radius: 90px;
-    margin: 0px 10px 0px 10px;
-}
+.ñp { background-color: brown; border-radius: 90px; margin: 0px 10px 0px 10px; }
 
-.estr {
-    display: flex;
-    margin: 0px 60px;
-}
+.estr { display: flex; margin: 0px 60px; }
 
-.rate {
-    clip-path: polygon(
-        50% 0%,
-        61% 35%,
-        98% 35%,
-        68% 57%,
-        79% 91%,
-        50% 70%,
-        21% 91%,
-        32% 57%,
-        2% 35%,
-        39% 35%
-    );
-    background-color: yellow;
-    width: 20px;
-    height: 20px;
-}
+.rate { clip-path: polygon( 50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35% ); background-color: yellow; width: 20px; height: 20px; }
 
-.rates {
-    clip-path: polygon(
-        50% 0%,
-        61% 35%,
-        98% 35%,
-        68% 57%,
-        79% 91%,
-        50% 70%,
-        21% 91%,
-        32% 57%,
-        2% 35%,
-        39% 35%
-    );
-    background-color: #a6a6a6;
-    width: 20px;
-    height: 20px;
-}
+.rates { clip-path: polygon( 50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35% ); background-color: #a6a6a6; width: 20px; height: 20px; }
 
-.ñpl {
-    background-color: #12b18c;
-    border-radius: 90px;
-    margin: 0px 10px 0px 10px;
-}
+.miguel { background-color: #12b18c; border-radius: 90px; margin: 0px 10px 0px 10px; }
 
-.ñplf {
-    background-color: #026951;
-    border-radius: 90px;
-    margin: 0px 10px 0px 10px;
-}
+.luis { background-color: #026951; border-radius: 90px; margin: 0px 10px 0px 10px; }
 
-.ñplff {
-    background-color: #b62aa1;
-    border-radius: 90px;
-    margin: 0px 10px 0px 10px;
-}
+.keylin { background-color: #b62aa1; border-radius: 90px; margin: 0px 10px 0px 10px; }
 
-.ñplffg {
-    background-color: #5e8999;
-    border-radius: 90px;
-    margin: 0px 10px 0px 10px;
-}
+.walter { background-color: #5e8999; border-radius: 90px; margin: 0px 10px 0px 10px; }
 
-.ñplffgh {
-    background-color: #638506;
-    border-radius: 90px;
-    margin: 0px 10px 0px 10px;
-}
+.eduardo { background-color: #638506; border-radius: 90px; margin: 0px 10px 0px 10px; }
 
-.ñplffghj {
-    background-color: #ed305f;
-    border-radius: 90px;
-    margin: 0px 10px 0px 10px;
-}
+.certec { background-color: #ed305f; border-radius: 90px; margin: 0px 10px 0px 10px; }
 
-.ñplffghjh {
-    background-color: #bb0d0d;
-    border-radius: 90px;
-    margin: 0px 10px 0px 10px;
-}
+.miguelA { background-color: #bb0d0d; border-radius: 90px; margin: 0px 10px 0px 10px; }
 
-.ñplffghjhf {
-    background-color: #8f5401;
-    border-radius: 90px;
-    margin: 0px 10px 0px 10px;
-}
+.ancelmo { background-color: #8f5401; border-radius: 90px; margin: 0px 10px 0px 10px; }
 
-.ñplffghjhff {
-    background-color: #1d5e0d;
-    border-radius: 90px;
-    margin: 0px 10px 0px 10px;
-}
+.random { background-color: #1d5e0d; border-radius: 90px; margin: 0px 10px 0px 10px; }
 
-.ñplffghjd {
-    background-color: #8316ae;
-    border-radius: 90px;
-    margin: 0px 10px 0px 10px;
-}
+.marlen { background-color: #8316ae; border-radius: 90px; margin: 0px 10px 0px 10px; }
 
-.ñplffghjds {
-    background-color: #15ac1d;
-    border-radius: 90px;
-    margin: 0px 10px 0px 10px;
-}
+.hardvadert { background-color: #15ac1d; border-radius: 90px; margin: 0px 10px 0px 10px;}
 
-.ñplffghjdsd {
-    background-color: #03508b;
-    border-radius: 90px;
-    margin: 0px 10px 0px 10px;
-}
+.paola { background-color: #03508b; border-radius: 90px; margin: 0px 10px 0px 10px;}
+/*fin de las reseñas*/
