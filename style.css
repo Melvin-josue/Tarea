@@ -1,13 +1,14 @@
 body {
-    background: linear-gradient(to right, #feacd9, #f38eec);
+    background: linear-gradient(to right, #d69bbb, #f38eec);
     margin: 0.5px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Barra de enlaces y opciones */
 .barraa {
-    width: 1810px;
-    height: 250px;
+    width: 100%;
+    /* height: 250px;*/
+    height: 15pc;
     font-size: 24px;
     background: linear-gradient(10deg, #18c991, #45e619);
     margin: 0px 0px 0px 0px;
@@ -24,7 +25,6 @@ body {
 .barra {
     display: flex;
     flex-direction: row;
-    overflow: hidden;
 }
 
 .barraa h1 {
@@ -33,7 +33,8 @@ body {
 }
 
 .barraa .lk {
-    margin: 50px 0px 0px 100px;
+    margin: 0 auto;
+    margin-top: 2%;
     text-decoration: none;
     transition: transform 0.4s ease;
 }
@@ -48,23 +49,11 @@ body {
     color: white;
 }
 
-.barraa input {
-    width: 500px;
-    height: 20px;
-    margin: 10px 0px 0px 10px;
-    border-radius: 20px;
-    transition: transform 0.4s ease;
-}
-
-.barraa input:hover {
-    transform: scale(1.1);
-}
-
 .logo {
     width: 100px;
     height: 100px;
     border-radius: 40px;
-    margin: 0px 0px 0px 70px;
+    margin: 0 auto;
     transition: transform 0.4s ease;
 }
 
@@ -80,6 +69,8 @@ body {
 .galeria .ncv {
     display: flex;
     flex-direction: row;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
 }
 
 .galeria .ncv img {
@@ -90,13 +81,15 @@ body {
 }
 
 .galeria .ncv .ncvb {
-    margin: 30px 0px 0px 90px;
+    margin: 30px 0px 0px 5rem;
+    text-align: justify;
     font-size: 20px;
 }
 
 .galeria .ncv .ncvb p {
     margin: 0px 50px 0px 80px;
     text-align: justify;
+    font-size: 26px;
 }
 
 .gal {
@@ -106,6 +99,14 @@ body {
 
 .gal h3 a {
     text-decoration: none;
+    color: #18c991;
+    font-size: 20px;
+    font-weight: bold
+}
+
+.gal h3 a:hover{
+    color: #45e619;
+    transform: scale(1.1);
 }
 
 .galeria .gal .lado {
@@ -130,21 +131,23 @@ body {
     width: 500px;
     height: auto;
     border-radius: 20px;
-    margin: 0px 50px 0px 0px;
+    margin: 0px 90px 30px 0px;
+    margin-right: 20px:
 }
 
 .galeria .mjk {
     display: flex;
     text-align: justify;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .galeria .mjk p {
-    margin: 0px 80px 0px 50px;
+    margin: 20px 80px 0px 50px;
 }
 
 .galeria .mjk h1 {
-    margin: 0px 0px 0px 30px;
+    margin-top: 5rem;
+    text-align: center
 }
 
 /* Cpyryght*/

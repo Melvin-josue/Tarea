@@ -6,7 +6,7 @@ body {
 
 /* Barra de enlaces y opciones */
 .barraa {
-    width: 1810px;
+    width: 100%;
     height: 250px;
     font-size: 24px;
     background: linear-gradient(10deg, #18c991, #45e619);
@@ -74,32 +74,6 @@ body {
 
 /*info sobre nosotros*/
 
-/*horario atencion*/
-.in {
-    text-align: center;
-    margin: 0px 30px;
-}
-
-.in .tab {
-    justify-self: center;
-    margin: 30px 0px 0px 0px;
-}
-
-.tab {
-    width: 100%;
-    height: 300px;
-    text-align: center;
-    font-size: 25px;
-    border-color: #ff0606;
-}
-
-.tab #one {
-    background: linear-gradient(120deg, #2180ed, #d816c891);
-}
-
-.tab #two {
-    background: linear-gradient(120deg, #d816c891, #2180ed);
-}
 
 /*info*/
 .bo {
