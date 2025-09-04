@@ -1,183 +1,184 @@
 body {
-    background: linear-gradient(to right, #d69bbb, #f38eec);
-    margin: 0.5px;
-    font-family: Arial, Helvetica, sans-serif;
+  background-color: #eea7e9a2;
+  margin: 0.5px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Barra de enlaces y opciones */
 .barraa {
-    width: 100%;
-    /* height: 250px;*/
-    height: 15pc;
-    font-size: 24px;
-    background: linear-gradient(10deg, #18c991, #45e619);
-    margin: 0px 0px 0px 0px;
-    overflow: hidden;
-    border-radius: 0 0 80px 80px;
+  width: 100%;
+  /* height: 250px;*/
+  height: 15pc;
+  font-size: 24px;
+  background: linear-gradient(10deg, #18c991, #45e619);
+  margin: 0px 0px 0px 0px;
+  overflow: hidden;
+  border-radius: 0 0 80px 80px;
 }
 
 .barraa {
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
 }
 
 .barra {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .barraa h1 {
-    text-align: center;
-    color: azure;
+  text-align: center;
+  color: azure;
 }
 
 .barraa .lk {
-    margin: 0 auto;
-    margin-top: 2%;
-    text-decoration: none;
-    transition: transform 0.4s ease;
+  margin: 0 auto;
+  margin-top: 2%;
+  text-decoration: none;
+  transition: transform 0.4s ease;
 }
 
 .barraa .lk:hover {
-    transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 .barraa #lpk {
-    margin: 10px 0px 0px 50px;
-    font-size: 60px;
-    color: white;
+  margin: 10px 0px 0px 50px;
+  font-size: 60px;
+  color: white;
 }
 
 .logo {
-    width: 100px;
-    height: 100px;
-    border-radius: 40px;
-    margin: 0 auto;
-    transition: transform 0.4s ease;
+  width: 100px;
+  height: 100px;
+  border-radius: 40px;
+  margin: 0 auto;
+  transition: transform 0.4s ease;
 }
 
 .logo:hover {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 /* galeria de flores*/
 .galeria {
-    overflow: hidden;
+  overflow: hidden;
 }
 
 .galeria .ncv {
-    display: flex;
-    flex-direction: row;
-    margin-top: 5rem;
-    margin-bottom: 5rem;
+  display: flex;
+  flex-direction: row;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
 }
 
 .galeria .ncv img {
-    width: 500px;
-    height: 500px;
-    margin: 30px 0px 50px 50px;
-    border-radius: 20px;
+  width: 500px;
+  height: 500px;
+  margin: 30px 0px 50px 50px;
+  border-radius: 20px;
 }
 
 .galeria .ncv .ncvb {
-    margin: 30px 0px 0px 5rem;
-    text-align: justify;
-    font-size: 20px;
+  margin: 30px 0px 0px 5rem;
+  text-align: justify;
+  font-size: 20px;
 }
 
 .galeria .ncv .ncvb p {
-    margin: 0px 50px 0px 80px;
-    text-align: justify;
-    font-size: 26px;
+  margin: 0px 50px 0px 80px;
+  text-align: justify;
+  font-size: 26px;
 }
 
 .gal {
-    text-align: center;
-    overflow: hidden;
+  text-align: center;
+  overflow: hidden;
 }
 
 .gal h3 a {
-    text-decoration: none;
-    color: #18c991;
-    font-size: 20px;
-    font-weight: bold
+  text-decoration: none;
+  color: #18c991;
+  font-size: 20px;
+  font-weight: bold;
 }
 
-.gal h3 a:hover{
-    color: #45e619;
-    transform: scale(1.1);
+.gal h3 a:hover {
+  color: #45e619;
+  transform: scale(1.1);
 }
 
 .galeria .gal .lado {
-    margin: 0px 0px 0px 0px;
-    width: 500px;
-    height: 50px;
+  margin: 0px 0px 0px 0px;
+  width: 500px;
+  height: 50px;
 }
 
 .galeria .ldi {
-    margin: 20px 0px 0px 20px;
-    border-radius: 15px;
-    transition: transform 0.4s ease;
-    height: 300px;
-    width: 400px;
+  margin: 20px 0px 0px 20px;
+  border-radius: 15px;
+  transition: transform 0.4s ease;
+  height: 300px;
+  width: 400px;
 }
 
 .galeria .ldi:hover {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .galeria .mjk img {
-    width: 500px;
-    height: auto;
-    border-radius: 20px;
-    margin: 0px 90px 30px 0px;
-    margin-right: 20px:
+  width: 500px;
+  height: auto;
+  border-radius: 20px;
+  margin: 0px 90px 30px 0px;
+  margin-right: 20px;
 }
 
 .galeria .mjk {
-    display: flex;
-    text-align: justify;
-    font-size: 30px;
+  display: flex;
+  text-align: justify;
+  font-size: 30px;
 }
 
 .galeria .mjk p {
-    margin: 20px 80px 0px 50px;
+  margin: 20px 80px 0px 50px;
 }
 
+/*Esata es una imagen de galeria*/
 .galeria .mjk h1 {
-    margin-top: 5rem;
-    text-align: center
+  margin-top: 5rem;
+  text-align: center;
 }
 
 /* Cpyryght*/
 .copy {
-    margin: 50px 0px 0px 0px;
-    background: linear-gradient(135deg, #19e8d0, #1b9ecdbb);
-    overflow: hidden;
-    border-radius: 90px 90px 0px 0px;
+  margin: 50px 0px 0px 0px;
+  background: linear-gradient(135deg, #19e8d0, #1b9ecdbb);
+  overflow: hidden;
+  border-radius: 90px 90px 0px 0px;
 }
 
 .copy #k {
-    text-align: center;
+  text-align: center;
 }
 
 .copy .loli {
-    margin: 0px 0px 0px 100px;
+  margin: 0px 0px 0px 100px;
 }
 
 .copy .logo {
-    width: 40px;
-    height: 40px;
-    transition: transform 0.4s ease;
-    margin: 0px 0px 0px 0px;
+  width: 40px;
+  height: 40px;
+  transition: transform 0.4s ease;
+  margin: 0px 0px 0px 0px;
 }
 
 .copy .logo:hover {
-    transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 .copy #direc {
-    margin: 0px 0px 20px 900px;
-    font-size: 25px;
+  margin: 0px 0px 20px 900px;
+  font-size: 25px;
 }

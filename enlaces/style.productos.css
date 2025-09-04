@@ -1,251 +1,257 @@
 body {
-    background: linear-gradient(to right, #feacd9, #f38eec);
-    margin: 0.5px;
-    font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(to right, #feacd9, #f38eec);
+  margin: 0.5px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Barra de enlaces y opciones */
 .barraa {
-    width: 100%;
-    /* height: 250px;*/
-    height: 15pc;
-    font-size: 24px;
-    background: linear-gradient(10deg, #18c991, #45e619);
-    margin: 0px 0px 0px 0px;
-    overflow: hidden;
-    border-radius: 0 0 80px 80px;
+  width: 100%;
+  /* height: 250px;*/
+  height: 15pc;
+  font-size: 24px;
+  background: linear-gradient(10deg, #18c991, #45e619);
+  margin: 0px 0px 0px 0px;
+  overflow: hidden;
+  border-radius: 0 0 80px 80px;
 }
 
 .barraa {
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
 }
 
 .barra {
-    display: flex;
-    flex-direction: row;
-    overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
 }
 
 .barraa h1 {
-    text-align: center;
-    color: azure;
+  text-align: center;
+  color: azure;
 }
 
 .barraa .lk {
-    margin: 0 auto;
-    margin-top: 2%;
-    text-decoration: none;
-    transition: transform 0.4s ease;
+  margin: 0 auto;
+  margin-top: 2%;
+  text-decoration: none;
+  transition: transform 0.4s ease;
 }
 
 .barraa .lk:hover {
-    transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 .barraa #lpk {
-    margin: 10px 0px 0px 50px;
-    font-size: 60px;
-    color: white;
+  margin: 10px 0px 0px 50px;
+  font-size: 60px;
+  color: white;
 }
 
 .logo {
-    width: 100px;
-    height: 100px;
-    border-radius: 40px;
-    margin: 0 auto;
-    transition: transform 0.4s ease;
+  width: 100px;
+  height: 100px;
+  border-radius: 40px;
+  margin: 0 auto;
+  transition: transform 0.4s ease;
 }
 
 .logo:hover {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 
- /* Barra de enlaces y opciones2 */
+/* Barra de enlaces y opciones2 */
 .barraa2 {
-    max-height: 80px;
-    /* Altura inicial para mostrar el título y el texto alternativo */
-    width: 80%;
-    font-size: 24px;
-    background: linear-gradient(10deg, #18c991, #45e619);
-    margin: 0 auto;
-    border-radius: 0 0 80px 80px;
-    position: sticky;
-    top: 0;
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
-    transition: max-height 0.5s ease-in-out;
-    /* Transición para la expansión de altura */
-    box-sizing: border-box;
+  max-height: 80px;
+  /* Altura inicial para mostrar el título y el texto alternativo */
+  width: 80%;
+  font-size: 24px;
+  background: linear-gradient(10deg, #18c991, #45e619);
+  margin: 0 auto;
+  border-radius: 0 0 80px 80px;
+  position: sticky;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  transition: max-height 0.5s ease-in-out;
+  /* Transición para la expansión de altura */
+  box-sizing: border-box;
 }
 
 /* Estado cuando el mouse está sobre la barra */
 .barraa2:hover {
-    max-height: 250px;
-    /* Altura completa para mostrar todo el contenido */
-    padding: 2rem;
-    z-index: 100;
+  max-height: 250px;
+  /* Altura completa para mostrar todo el contenido */
+  padding: 2rem;
+  z-index: 100;
 }
 
 .barraa2 h1 {
-    text-align: center;
-    color: azure;
-    margin: 0.5rem 0;
-    transition: opacity 0.5s ease-in-out;
-    opacity: 1;
-    /* Visible por defecto */
+  text-align: center;
+  color: azure;
+  margin: 0.5rem 0;
+  transition: opacity 0.5s ease-in-out;
+  opacity: 1;
+  /* Visible por defecto */
 }
 
 /* Contenedor del texto alternativo */
 .texto-alternativo {
-    text-align: center;
-    color: white;
-    font-size: 1.5rem;
-    opacity: 0;
-    /* Oculto por defecto */
-    transition: opacity 0.5s ease-in-out;
-    pointer-events: none;
-    /* Inhabilita los clics */
+  text-align: center;
+  color: white;
+  font-size: 1.5rem;
+  opacity: 0;
+  /* Oculto por defecto */
+  transition: opacity 0.5s ease-in-out;
+  pointer-events: none;
+  /* Inhabilita los clics */
 }
 
 /* Contenedor de los enlaces */
 .barra2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    margin-top: 1rem;
-    opacity: 0;
-    /* Oculto por defecto */
-    pointer-events: none;
-    /* Inhabilita los clics */
-    transition: opacity 0.5s ease-in-out;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 1rem;
+  opacity: 0;
+  /* Oculto por defecto */
+  pointer-events: none;
+  /* Inhabilita los clics */
+  transition: opacity 0.5s ease-in-out;
 }
 
-
 .barraa2:hover .texto-alternativo {
-    opacity: 1;
-    /* Muestra el texto alternativo */
-    pointer-events: auto;
-    /* Habilita los clics */
+  opacity: 1;
+  /* Muestra el texto alternativo */
+  pointer-events: auto;
+  /* Habilita los clics */
 }
 
 .barraa2:hover .barra2 {
-    opacity: 1;
-    /* Muestra los enlaces */
-    pointer-events: auto;
-    /* Habilita los clics */
+  opacity: 1;
+  /* Muestra los enlaces */
+  pointer-events: auto;
+  /* Habilita los clics */
 }
 
 /* Estilo de cada enlace */
 .barraa2 .lk {
-    text-decoration: none;
-    color: white;
-    margin: 0 auto;
-}   
+  text-decoration: none;
+  color: white;
+  margin: 0 auto;
+}
 
 .pre h1 {
-    text-align: center;
-    font-size: 3rem;
+  text-align: center;
+  font-size: 3rem;
 }
 
 .ficha {
-    width: 300px;
-    border-radius: 40px;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 20px;
-    box-shadow: 0 2px 5px rgba(255, 0, 72, 984);
-    overflow: hidden;
-    transition: transform 0.4s ease;
+  width: 300px;
+  border-radius: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 20px;
+  box-shadow: 0 2px 5px rgba(255, 0, 72, 984);
+  overflow: hidden;
+  transition: transform 0.4s ease;
 }
 
 .ficha img {
-    width: 300px;
-    height: 350px;
-    object-fit: cover;
-    border-radius: 20px;
+  width: 300px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 20px;
 }
 
 .ficha .infot {
-    padding: 0;
+  padding: 0;
 }
 
 .infot .titulo {
-    font-size: 1.5rem;
-    text-align: center;
+  font-size: 1.5rem;
+  text-align: center;
 }
 
 .infot .pric {
-    font-size: 2rem;
-    margin: 0rem 2rem 2rem 2rem;
-    color: default;
+  font-size: 2rem;
+  margin: 0rem 2rem 2rem 2rem;
+  color: default;
 }
 
 .fichas {
-    display: flex;
-    justify-content: center;
-    width: 90%;
-    margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  margin: 20px auto;
 }
 
 .ficha:hover {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 
-
-.flomarillas{
-    text-align: center;
-    font-size: 3rem;
+.flomarillas {
+  text-align: center;
+  font-size: 3rem;
 }
 
+.rosas {
+  text-align: center;
+  font-size: 3rem;
+}
 
-.rosas{text-align: center;
-    font-size: 3rem;}
+.osos {
+  text-align: center;
+  font-size: 3rem;
+}
 
-.osos{text-align: center;
-    font-size: 3rem;}
+.ramos {
+  text-align: center;
+  font-size: 3rem;
+}
 
-.ramos{text-align: center;
-    font-size: 3rem;}
+.Choco {
+  text-align: center;
+  font-size: 3rem;
+}
 
-.Choco{text-align: center;
-    font-size: 3rem;}
-
-.otros{text-align: center;
-    font-size: 3rem;}
-
+.otros {
+  text-align: center;
+  font-size: 3rem;
+}
 
 /* Cpyryght*/
 .copy {
-    margin: 50px 0px 0px 0px;
-    background: linear-gradient(135deg, #19e8d0, #1b9ecdbb);
-    overflow: hidden;
-    border-radius: 90px 90px 0px 0px;
+  margin: 50px 0px 0px 0px;
+  background: linear-gradient(135deg, #19e8d0, #1b9ecdbb);
+  overflow: hidden;
+  border-radius: 90px 90px 0px 0px;
 }
 
 .copy #k {
-    text-align: center;
+  text-align: center;
 }
 
 .copy .loli {
-    margin: 0px 0px 0px 100px;
+  margin: 0px 0px 0px 100px;
 }
 
 .copy .logo {
-    width: 40px;
-    height: 40px;
-    transition: transform 0.4s ease;
-    margin: 0px 0px 0px 0px;
+  width: 40px;
+  height: 40px;
+  transition: transform 0.4s ease;
+  margin: 0px 0px 0px 0px;
 }
 
 .copy .logo:hover {
-    transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 .copy #direc {
-    margin: 0px 0px 20px 900px;
-    font-size: 25px;
+  margin: 0px 0px 20px 900px;
+  font-size: 25px;
 }

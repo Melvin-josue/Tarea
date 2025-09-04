@@ -1,321 +1,320 @@
 body {
-    background: linear-gradient(to right, #feacd9, #f38eec);
-    margin: 0.5px;
-    font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(to right, #feacd9, #f38eec);
+  margin: 0.5px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Barra de enlaces y opciones */
 .barraa {
-    width: 100%;
-    height: 250px;
-    font-size: 24px;
-    background: linear-gradient(10deg, #18c991, #45e619);
-    margin: 0px 0px 0px 0px;
-    overflow: hidden;
-    border-radius: 0 0 80px 80px;
+  width: 100%;
+  height: 250px;
+  font-size: 24px;
+  background: linear-gradient(10deg, #18c991, #45e619);
+  margin: 0px 0px 0px 0px;
+  overflow: hidden;
+  border-radius: 0 0 80px 80px;
 }
 
 .barraa {
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
 }
 
 .barra {
-    display: flex;
-    flex-direction: row;
-    overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
 }
 
 .barraa h1 {
-    text-align: center;
-    color: azure;
+  text-align: center;
+  color: azure;
 }
 
 .barraa .lk {
-    margin: 50px 0px 0px 100px;
-    text-decoration: none;
-    transition: transform 0.4s ease;
+  margin: 50px 0px 0px 100px;
+  text-decoration: none;
+  transition: transform 0.4s ease;
 }
 
 .barraa .lk:hover {
-    transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 .barraa #lpk {
-    margin: 10px 0px 0px 50px;
-    font-size: 60px;
-    color: white;
+  margin: 10px 0px 0px 50px;
+  font-size: 60px;
+  color: white;
 }
 
 .barraa input {
-    width: 500px;
-    height: 20px;
-    margin: 10px 0px 0px 10px;
-    border-radius: 20px;
-    transition: transform 0.4s ease;
+  width: 500px;
+  height: 20px;
+  margin: 10px 0px 0px 10px;
+  border-radius: 20px;
+  transition: transform 0.4s ease;
 }
 
 .barraa input:hover {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .logo {
-    width: 100px;
-    height: 100px;
-    border-radius: 40px;
-    margin: 0px 0px 0px 70px;
-    transition: transform 0.4s ease;
+  width: 100px;
+  height: 100px;
+  border-radius: 40px;
+  margin: 0px 0px 0px 70px;
+  transition: transform 0.4s ease;
 }
 
 .logo:hover {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 /*info sobre nosotros*/
 
-
 /*info*/
 .bo {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .hist {
-    margin: 90px 30px 0px 30px;
+  margin: 90px 30px 0px 30px;
 }
 
 .hist h1 {
-    text-align: center;
+  text-align: center;
 }
 
 .hist p {
-    text-align: justify;
+  text-align: justify;
 }
 
 .porque h1 {
-    text-align: center;
+  text-align: center;
 }
 
 .porque ul li {
-    text-align: justify;
-    margin: 0px 30px 10px 30px;
+  text-align: justify;
+  margin: 0px 30px 10px 30px;
 }
 
 .filo h1 {
-    text-align: center;
+  text-align: center;
 }
 
 .filo p {
-    text-align: justify;
-    margin: 0px 30px;
+  text-align: justify;
+  margin: 0px 30px;
 }
 
 /*productos*/
 .pre h1 {
-    text-align: center;
+  text-align: center;
 }
 
 .ficha {
-    width: 300px;
-    border-radius: 40px;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 20px;
-    box-shadow: 0 2px 5px rgba(255, 0, 72, 984);
-    overflow: hidden;
-    transition: trasform 5s ease-in-out;
+  width: 300px;
+  border-radius: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 20px;
+  box-shadow: 0 2px 5px rgba(255, 0, 72, 984);
+  overflow: hidden;
+  transition: trasform 5s ease-in-out;
 }
 
 .ficha img {
-    width: 300px;
-    height: 350px;
-    object-fit: cover;
-    border-radius: 20px;
+  width: 300px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 20px;
 }
 
 .ficha .infot {
-    padding: 15px;
+  padding: 15px;
 }
 
 .infot .titulo {
-    font-size: 1.5rem;
-    text-align: center;
+  font-size: 1.5rem;
+  text-align: center;
 }
 
 .infot .pric {
-    font-size: 1.3rem;
-    margin: 0px 20px;
-    color: default;
+  font-size: 1.3rem;
+  margin: 0px 20px;
+  color: default;
 }
 
 .fichas {
-    display: flex;
-    justify-content: center;
-    width: 90%;
-    margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  margin: 20px auto;
 }
 
 .ficha:hover {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 /*Rate de compradores*/
 .ty {
-    text-align: center;
+  text-align: center;
 }
 
 .reseñas {
-    width: 300px;
-    border-radius: 40px;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 20px;
-    box-shadow: 0 2px 5px rgba(255, 0, 72, 984);
+  width: 300px;
+  border-radius: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 20px;
+  box-shadow: 0 2px 5px rgba(255, 0, 72, 984);
 }
 
 .reseñas .men {
-    padding: 15px;
+  padding: 15px;
 }
 
 .reseñas .titu {
-    font-size: 1.5rem;
-    text-align: center;
+  font-size: 1.5rem;
+  text-align: center;
 }
 
 .reseñas .poi {
-    font-size: 1.3rem;
-    margin: 0px 20px;
-    color: default;
+  font-size: 1.3rem;
+  margin: 0px 20px;
+  color: default;
 }
 
 .reseña {
-    display: flex;
-    justify-content: center;
-    width: 90%;
-    margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  margin: 20px auto;
 }
 
 .but {
-    display: flex;
+  display: flex;
 }
 
 .ñp {
-    background-color: brown;
-    border-radius: 90px;
-    margin: 0px 10px 0px 10px;
+  background-color: brown;
+  border-radius: 90px;
+  margin: 0px 10px 0px 10px;
 }
 
 .estr {
-    display: flex;
-    margin: 0px 60px;
+  display: flex;
+  margin: 0px 60px;
 }
 
 .rate {
-    clip-path: polygon(
-        50% 0%,
-        61% 35%,
-        98% 35%,
-        68% 57%,
-        79% 91%,
-        50% 70%,
-        21% 91%,
-        32% 57%,
-        2% 35%,
-        39% 35%
-    );
-    background-color: yellow;
-    width: 20px;
-    height: 20px;
+  clip-path: polygon(
+    50% 0%,
+    61% 35%,
+    98% 35%,
+    68% 57%,
+    79% 91%,
+    50% 70%,
+    21% 91%,
+    32% 57%,
+    2% 35%,
+    39% 35%
+  );
+  background-color: yellow;
+  width: 20px;
+  height: 20px;
 }
 
 .rates {
-    clip-path: polygon(
-        50% 0%,
-        61% 35%,
-        98% 35%,
-        68% 57%,
-        79% 91%,
-        50% 70%,
-        21% 91%,
-        32% 57%,
-        2% 35%,
-        39% 35%
-    );
-    background-color: #a6a6a6;
-    width: 20px;
-    height: 20px;
+  clip-path: polygon(
+    50% 0%,
+    61% 35%,
+    98% 35%,
+    68% 57%,
+    79% 91%,
+    50% 70%,
+    21% 91%,
+    32% 57%,
+    2% 35%,
+    39% 35%
+  );
+  background-color: #a6a6a6;
+  width: 20px;
+  height: 20px;
 }
 
 .ñpl {
-    background-color: #12b18c;
-    border-radius: 90px;
-    margin: 0px 10px 0px 10px;
+  background-color: #12b18c;
+  border-radius: 90px;
+  margin: 0px 10px 0px 10px;
 }
 
 .ñplf {
-    background-color: #026951;
-    border-radius: 90px;
-    margin: 0px 10px 0px 10px;
+  background-color: #026951;
+  border-radius: 90px;
+  margin: 0px 10px 0px 10px;
 }
 
 .ñplff {
-    background-color: #b62aa1;
-    border-radius: 90px;
-    margin: 0px 10px 0px 10px;
+  background-color: #b62aa1;
+  border-radius: 90px;
+  margin: 0px 10px 0px 10px;
 }
 
 .ñplffg {
-    background-color: #5e8999;
-    border-radius: 90px;
-    margin: 0px 10px 0px 10px;
+  background-color: #5e8999;
+  border-radius: 90px;
+  margin: 0px 10px 0px 10px;
 }
 
 .ñplffgh {
-    background-color: #638506;
-    border-radius: 90px;
-    margin: 0px 10px 0px 10px;
+  background-color: #638506;
+  border-radius: 90px;
+  margin: 0px 10px 0px 10px;
 }
 
 .ñplffghj {
-    background-color: #ed305f;
-    border-radius: 90px;
-    margin: 0px 10px 0px 10px;
+  background-color: #ed305f;
+  border-radius: 90px;
+  margin: 0px 10px 0px 10px;
 }
 
 .ñplffghjh {
-    background-color: #bb0d0d;
-    border-radius: 90px;
-    margin: 0px 10px 0px 10px;
+  background-color: #bb0d0d;
+  border-radius: 90px;
+  margin: 0px 10px 0px 10px;
 }
 
 .ñplffghjhf {
-    background-color: #8f5401;
-    border-radius: 90px;
-    margin: 0px 10px 0px 10px;
+  background-color: #8f5401;
+  border-radius: 90px;
+  margin: 0px 10px 0px 10px;
 }
 
 .ñplffghjhff {
-    background-color: #1d5e0d;
-    border-radius: 90px;
-    margin: 0px 10px 0px 10px;
+  background-color: #1d5e0d;
+  border-radius: 90px;
+  margin: 0px 10px 0px 10px;
 }
 
 .ñplffghjd {
-    background-color: #8316ae;
-    border-radius: 90px;
-    margin: 0px 10px 0px 10px;
+  background-color: #8316ae;
+  border-radius: 90px;
+  margin: 0px 10px 0px 10px;
 }
 
 .ñplffghjds {
-    background-color: #15ac1d;
-    border-radius: 90px;
-    margin: 0px 10px 0px 10px;
+  background-color: #15ac1d;
+  border-radius: 90px;
+  margin: 0px 10px 0px 10px;
 }
 
 .ñplffghjdsd {
-    background-color: #03508b;
-    border-radius: 90px;
-    margin: 0px 10px 0px 10px;
+  background-color: #03508b;
+  border-radius: 90px;
+  margin: 0px 10px 0px 10px;
 }
 
 .copy #loli {
-    margin: 0px 0px 0px 100px;
+  margin: 0px 0px 0px 100px;
 }

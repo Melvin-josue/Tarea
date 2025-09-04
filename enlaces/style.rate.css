@@ -1,263 +1,282 @@
 body {
-    background: linear-gradient(to right, #feacd9, #f38eec);
-    margin: 0.5px;
-    font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(to right, #feacd9, #f38eec);
+  margin: 0.5px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Barra de enlaces y opciones */
 .barraa {
-    width: 100%;
-    height: 250px;
-    font-size: 24px;
-    background: linear-gradient(10deg, #18c991, #45e619);
-    margin: 0px auto;
-    overflow: hidden;
-    border-radius: 0 0 80px 80px;
+  width: 100%;
+  height: 250px;
+  font-size: 24px;
+  background: linear-gradient(10deg, #18c991, #45e619);
+  margin: 0px auto;
+  overflow: hidden;
+  border-radius: 0 0 80px 80px;
 
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
 }
 
 .barra {
-    display: flex;
-    flex-direction: row;
-    overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
 }
 
 .barraa h1 {
-    text-align: center;
-    color: azure;
+  text-align: center;
+  color: azure;
 }
 
 .barraa .lk {
-    margin: 0 auto;
-    margin-top: 2%;
-    text-decoration: none;
-    transition: transform 0.4s ease;
+  margin: 0 auto;
+  margin-top: 2%;
+  text-decoration: none;
+  transition: transform 0.4s ease;
 }
 
 .barraa .lk:hover {
-    transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 .barraa #lpk {
-    margin: 0 auto;
-    font-size: 60px;
-    color: white;
+  margin: 0 auto;
+  font-size: 60px;
+  color: white;
 }
 
 .barraa input {
-    width: 500px;
-    height: 20px;
-    margin: 10px 0px 0px 10px;
-    border-radius: 20px;
-    transition: transform 0.4s ease;
+  width: 500px;
+  height: 20px;
+  margin: 10px 0px 0px 10px;
+  border-radius: 20px;
+  transition: transform 0.4s ease;
 }
 
 .barraa input:hover {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .logo {
-    width: 100px;
-    height: 100px;
-    border-radius: 40px;
-    margin: 0px 0px 0px 70px;
-    transition: transform 0.4s ease;
+  width: 100px;
+  height: 100px;
+  border-radius: 40px;
+  margin: 0px 0px 0px 70px;
+  transition: transform 0.4s ease;
 }
 
 .logo:hover {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
-
 
 /*Rate de compradores*/
 .ty {
-    text-align: center;
+  text-align: center;
 }
 
 .reseñas {
-    width: 300px;
-    border-radius: 40px;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 20px;
-    box-shadow: 0 2px 5px rgba(255, 0, 72, 984);
+  width: 300px;
+  border-radius: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 20px;
+  box-shadow: 0 2px 5px rgba(255, 0, 72, 984);
 }
 
 .reseñas .men {
-    padding: 15px;
+  padding: 15px;
 }
 
 .reseñas .titu {
-    font-size: 1.5rem;
-    text-align: center;
+  font-size: 1.5rem;
+  text-align: center;
 }
 
 .reseñas .poi {
-    font-size: 1.3rem;
-    margin: 0px 20px;
-    color: default;
+  font-size: 1.3rem;
+  margin: 0px 20px;
+  color: default;
 }
 
 .reseña {
-    display: flex;
-    justify-content: center;
-    width: 90%;
-    margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  margin: 20px auto;
 }
 
 .but {
-    display: flex;
+  display: flex;
 }
 
 .ñp {
-    background-color: brown;
-    border-radius: 90px;
-    margin: 0px 10px 0px 10px;
+  background-color: brown;
+  border-radius: 90px;
+  margin: 0px 10px 0px 10px;
 }
 
 .estr {
-    display: flex;
-    margin: 0px 60px;
+  display: flex;
+  margin: 0px 60px;
 }
 
 .rate {
-    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
-    background-color: yellow;
-    width: 20px;
-    height: 20px;
+  clip-path: polygon(
+    50% 0%,
+    61% 35%,
+    98% 35%,
+    68% 57%,
+    79% 91%,
+    50% 70%,
+    21% 91%,
+    32% 57%,
+    2% 35%,
+    39% 35%
+  );
+  background-color: yellow;
+  width: 20px;
+  height: 20px;
 }
 
 .rates {
-    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
-    background-color: #a6a6a6;
-    width: 20px;
-    height: 20px;
+  clip-path: polygon(
+    50% 0%,
+    61% 35%,
+    98% 35%,
+    68% 57%,
+    79% 91%,
+    50% 70%,
+    21% 91%,
+    32% 57%,
+    2% 35%,
+    39% 35%
+  );
+  background-color: #a6a6a6;
+  width: 20px;
+  height: 20px;
 }
 
 .miguel {
-    background-color: #12b18c;
-    border-radius: 90px;
-    margin: 0px 10px 0px 10px;
+  background-color: #12b18c;
+  border-radius: 90px;
+  margin: 0px 10px 0px 10px;
 }
 
 .luis {
-    background-color: #026951;
-    border-radius: 90px;
-    margin: 0px 10px 0px 10px;
+  background-color: #026951;
+  border-radius: 90px;
+  margin: 0px 10px 0px 10px;
 }
 
 .keylin {
-    background-color: #b62aa1;
-    border-radius: 90px;
-    margin: 0px 10px 0px 10px;
+  background-color: #b62aa1;
+  border-radius: 90px;
+  margin: 0px 10px 0px 10px;
 }
 
 .walter {
-    background-color: #5e8999;
-    border-radius: 90px;
-    margin: 0px 10px 0px 10px;
+  background-color: #5e8999;
+  border-radius: 90px;
+  margin: 0px 10px 0px 10px;
 }
 
 .eduardo {
-    background-color: #638506;
-    border-radius: 90px;
-    margin: 0px 10px 0px 10px;
+  background-color: #638506;
+  border-radius: 90px;
+  margin: 0px 10px 0px 10px;
 }
 
 .certec {
-    background-color: #ed305f;
-    border-radius: 90px;
-    margin: 0px 10px 0px 10px;
+  background-color: #ed305f;
+  border-radius: 90px;
+  margin: 0px 10px 0px 10px;
 }
 
 .miguelA {
-    background-color: #bb0d0d;
-    border-radius: 90px;
-    margin: 0px 10px 0px 10px;
+  background-color: #bb0d0d;
+  border-radius: 90px;
+  margin: 0px 10px 0px 10px;
 }
 
 .ancelmo {
-    background-color: #8f5401;
-    border-radius: 90px;
-    margin: 0px 10px 0px 10px;
+  background-color: #8f5401;
+  border-radius: 90px;
+  margin: 0px 10px 0px 10px;
 }
 
 .random {
-    background-color: #1d5e0d;
-    border-radius: 90px;
-    margin: 0px 10px 0px 10px;
+  background-color: #1d5e0d;
+  border-radius: 90px;
+  margin: 0px 10px 0px 10px;
 }
 
 .marlen {
-    background-color: #8316ae;
-    border-radius: 90px;
-    margin: 0px 10px 0px 10px;
+  background-color: #8316ae;
+  border-radius: 90px;
+  margin: 0px 10px 0px 10px;
 }
 
 .hardvadert {
-    background-color: #15ac1d;
-    border-radius: 90px;
-    margin: 0px 10px 0px 10px;
+  background-color: #15ac1d;
+  border-radius: 90px;
+  margin: 0px 10px 0px 10px;
 }
 
 .paola {
-    background-color: #03508b;
-    border-radius: 90px;
-    margin: 0px 10px 0px 10px;
+  background-color: #03508b;
+  border-radius: 90px;
+  margin: 0px 10px 0px 10px;
 }
 
 .diana {
-    background-color: #12b18c;
-    border-radius: 90px;
-    margin: 0px 10px 0px 10px;
+  background-color: #12b18c;
+  border-radius: 90px;
+  margin: 0px 10px 0px 10px;
 }
 
 .carlos {
-    background-color: #03508b;
-    border-radius: 90px;
-    margin: 0px 10px 0px 10px;
+  background-color: #03508b;
+  border-radius: 90px;
+  margin: 0px 10px 0px 10px;
 }
 
 .jaqueline {
-    background-color: #03508b;
-    border-radius: 90px;
-    margin: 0px 10px 0px 10px;
+  background-color: #03508b;
+  border-radius: 90px;
+  margin: 0px 10px 0px 10px;
 }
-
 
 /*fin de las reseñas*/
 
-
 /* Cpyryght*/
 .copy {
-    margin: 50px 0px 0px 0px;
-    background: linear-gradient(135deg, #19e8d0, #1b9ecdbb);
-    overflow: hidden;
-    border-radius: 90px 90px 0px 0px;
+  margin: 50px 0px 0px 0px;
+  background: linear-gradient(135deg, #19e8d0, #1b9ecdbb);
+  overflow: hidden;
+  border-radius: 90px 90px 0px 0px;
 }
 
 .copy #k {
-    text-align: center;
+  text-align: center;
 }
 
 .copy .loli {
-    margin: 0px 0px 0px 100px;
+  margin: 0px 0px 0px 100px;
 }
 
 .copy .logo {
-    width: 40px;
-    height: 40px;
-    transition: transform 0.4s ease;
-    margin: 0px 0px 0px 0px;
+  width: 40px;
+  height: 40px;
+  transition: transform 0.4s ease;
+  margin: 0px 0px 0px 0px;
 }
 
 .copy .logo:hover {
-    transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 .copy #direc {
-    margin: 0px 0px 20px 900px;
-    font-size: 25px;
+  margin: 0px 0px 20px 900px;
+  font-size: 25px;
 }
