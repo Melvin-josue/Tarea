@@ -224,6 +224,16 @@ body {
   font-size: 3rem;
 }
 
+/*
+stylo para no tener los links con las lineas azules
+*/
+
+main section a{
+  text-decoration: none;
+  color: black;
+}
+
+
 /* Cpyryght*/
 .copy {
   margin: 50px 0px 0px 0px;

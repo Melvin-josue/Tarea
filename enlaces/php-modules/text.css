@@ -1,0 +1,29 @@
+body{
+    background: linear-gradient(to right, #feacd9, #f38eec);
+    margin: 0.5px;
+    font-family: Arial, Helvetica, sans-serif;
+    display:flex;
+    flex-direction:column;
+    align-content: space-around;
+}
+
+img{
+    margin: 0 auto;
+    border-radius: 50px;
+}
+
+h1{
+    margin:0 auto;
+}
+
+p{
+    margin: 0rem auto;
+}
+
+a{
+    margin-top: 20px;
+    margin-left: 20px;
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+}
