@@ -1,383 +1,387 @@
 <?php
 
-        switch ($_GET["id"]) {
-            case 1:
-                echo $product1;
+function producto($id, $product)
+{
+    switch ($id) {
+        case 1:
+            return $product["htmlpro"];
             break;
-            case 2:
-                echo  $product2;
+        case 2:
+            return $product["htmlpro"];
             break;
-            case 3:
-                echo  $product3;
+        case 3:
+            return $product["htmlpro"];
             break;
-            case 4:
-                echo  $product4;
+        case 4:
+            return $product["htmlpro"];
             break;
-            case 5:
-                echo  $product5;
+        case 5:
+            return $product["htmlpro"];
             break;
-            case 6:
-                echo  $product6;
+        case 6:
+            return $product["htmlpro"];
             break;
-            case 7:
-                echo  $product7;
+        case 7:
+            return $product["htmlpro"];
             break;
-            case 8:
-                echo  $product8;
+        case 8:
+            return $product["htmlpro"];
             break;
-            case 9:
-                echo  $product9;
+        case 9:
+            return $product["htmlpro"];
             break;
-            case 10:
-                echo  $product10;
+        case 10:
+            return $product["htmlpro"];
             break;
-            case 11:
-                echo  $product11;
+        case 11:
+            return $product["htmlpro"];
             break;
-            case 12:
-                echo  $product12;
+        case 12:
+            return $product["htmlpro"];
             break;
-            case 13:
-                echo  $product13;
+        case 13:
+            return $product["htmlpro"];
             break;
-            case 14:
-                echo  $product14;
+        case 14:
+            return $product["htmlpro"];
             break;
-            case 15:
-                echo  $product15;
+        case 15:
+            return $product["htmlpro"];
             break;
-            case 16:
-                echo  $product16;
+        case 16:
+            return $product["htmlpro"];
             break;
-            case 17:
-                echo  $product17;
+        case 17:
+            return $product["htmlpro"];
             break;
-            case 18:
-                echo  $product18;
+        case 18:
+            return $product["htmlpro"];
             break;
-            case 19:
-                echo  $product19;
+        case 19:
+            return $product["htmlpro"];
             break;
-            case 20:
-                echo  $product20;
+        case 20:
+            return $product["htmlpro"];
             break;
-            case 21:
-                echo  $product21;
+        case 21:
+            return $product["htmlpro"];
             break;
-            case 22:
-                echo  $product22;
+        case 22:
+            return $product["htmlpro"];
             break;
-            case 23:
-                echo  $product23;
+        case 23:
+            return $product["htmlpro"];
             break;
-            case 24:
-                echo  $product24;
+        case 24:
+            return $product["htmlpro"];
             break;
-            case 25:
-                echo  $product25;
+        case 25:
+            return $product["htmlpro"];
             break;
-            case 26:
-                echo  $product26;
+        case 26:
+            return $product["htmlpro"];
             break;
-            case 27:
-                echo  $product27;
+        case 27:
+            return $product["htmlpro"];
             break;
-            case 28:
-                echo  $product28;
+        case 28:
+            return $product["htmlpro"];
             break;
-            case 29:
-                echo  $product29;
+        case 29:
+            return $product["htmlpro"];
             break;
-            case 30:
-                echo  $product30;
+        case 30:
+            return $product["htmlpro"];
             break;
-            case 31:
-                echo  $product31;
+        case 31:
+            return $product["htmlpro"];
             break;
-            case 32:
-                echo  $product32;
+        case 32:
+            return $product["htmlpro"];
             break;
-            case 33:
-                echo  $product33;
+        case 33:
+            return $product["htmlpro"];
             break;
-            case 34:
-                echo  $product34;
+        case 34:
+            return $product["htmlpro"];
             break;
-            case 35:
-                echo  $product35;
+        case 35:
+            return $product["htmlpro"];
             break;
-            case 36:
-                echo  $product36;
+        case 36:
+            return $product["htmlpro"];
             break;
-            case 37:
-                echo  $product37;
+        case 37:
+            return $product["htmlpro"];
             break;
-            case 38:
-                echo  $product38;
+        case 38:
+            return $product["htmlpro"];
             break;
-            case 39:
-                echo  $product39;
+        case 39:
+            return $product["htmlpro"];
             break;
-            case 40:
-                echo  $product40;
+        case 40:
+            return $product["htmlpro"];
             break;
-            case 41:
-                echo  $product41;
+        case 41:
+            return $product["htmlpro"];
             break;
-            case 42:
-                echo  $product42;
+        case 42:
+            return $product["htmlpro"];
             break;
-            case 43:
-                echo  $product43;
+        case 43:
+            return $product["htmlpro"];
             break;
-            case 44:
-                echo  $product44;
+        case 44:
+            return $product["htmlpro"];
             break;
-            case 45:
-                echo  $product45;
+        case 45:
+            return $product["htmlpro"];
             break;
-            case 46:
-                echo  $product46;
+        case 46:
+            return $product["htmlpro"];
             break;
-            case 47:
-                echo  $product47;
+        case 47:
+            return $product["htmlpro"];
             break;
-            case 48:
-                echo  $product48;
+        case 48:
+            return $product["htmlpro"];
             break;
-            case 49:
-                echo  $product49;
+        case 49:
+            return $product["htmlpro"];
             break;
-            case 50:
-                echo  $product50;
+        case 50:
+            return $product["htmlpro"];
             break;
-            case 51:
-                echo  $product51;
+        case 51:
+            return $product["htmlpro"];
             break;
-            case 52:
-                echo  $product52;
+        case 52:
+            return $product["htmlpro"];
             break;
-            case 53:
-                echo  $product53;
+        case 53:
+            return $product["htmlpro"];
             break;
-            case 54:
-                echo  $product54;
+        case 54:
+            return $product["htmlpro"];
             break;
-            case 55:
-                echo  $product55;
+        case 55:
+            return $product["htmlpro"];
             break;
-            case 56:
-                echo  $product56;
+        case 56:
+            return $product["htmlpro"];
             break;
-            case 57:
-                echo  $product57;
+        case 57:
+            return $product["htmlpro"];
             break;
-            case 58:
-                echo  $product58;
+        case 58:
+            return $product["htmlpro"];
             break;
-            case 59:
-                echo  $product59;
+        case 59:
+            return $product["htmlpro"];
             break;
-            case 60:
-                echo  $product60;
+        case 60:
+            return $product["htmlpro"];
             break;
-            case 61:
-                echo  $product61;
+        case 61:
+            return $product["htmlpro"];
             break;
-            case 62:
-                echo  $product62;
+        case 62:
+            return $product["htmlpro"];
             break;
-            case 63:
-                echo  $product63;
+        case 63:
+            return $product["htmlpro"];
             break;
-            case 64:
-                echo  $product64;
+        case 64:
+            return $product["htmlpro"];
             break;
-            case 65:
-                echo  $product65;
+        case 65:
+            return $product["htmlpro"];
             break;
-            case 66:
-                echo  $product66;
+        case 66:
+            return $product["htmlpro"];
             break;
-            case 67:
-                echo  $product67;
+        case 67:
+            return $product["htmlpro"];
             break;
-            case 68:
-                echo  $product68;
+        case 68:
+            return $product["htmlpro"];
             break;
-            case 69:
-                echo  $product69;
+        case 69:
+            return $product["htmlpro"];
             break;
-            case 70:
-                echo  $product70;
+        case 70:
+            return $product["htmlpro"];
             break;
-            case 71:
-                echo  $product71;
+        case 71:
+            return $product["htmlpro"];
             break;
-            case 72:
-                echo  $product72;
+        case 72:
+            return $product["htmlpro"];
             break;
-            case 73:
-                echo  $product73;
+        case 73:
+            return $product["htmlpro"];
             break;
-            case 74:
-                echo  $product74;
+        case 74:
+            return $product["htmlpro"];
             break;
-            case 75:
-                echo  $product75;
+        case 75:
+            return $product["htmlpro"];
             break;
-            case 76:
-                echo  $product76;
+        case 76:
+            return $product["htmlpro"];
             break;
-            case 77:
-                echo  $product77;
+        case 77:
+            return $product["htmlpro"];
             break;
-            case 78:
-                echo  $product78;
+        case 78:
+            return $product["htmlpro"];
             break;
-            case 79:
-                echo  $product79;
+        case 79:
+            return $product["htmlpro"];
             break;
-            case 80:
-                echo  $product80;
+        case 80:
+            return $product["htmlpro"];
             break;
-            case 81:
-                echo  $product81;
+        case 81:
+            return $product["htmlpro"];
             break;
-            case 82:
-                echo  $product82;
+        case 82:
+            return $product["htmlpro"];
             break;
-            case 83:
-                echo  $product83;
+        case 83:
+            return $product["htmlpro"];
             break;
-            case 84:
-                echo  $product84;
+        case 84:
+            return $product["htmlpro"];
             break;
-            case 85:
-                echo  $product85;
+        case 85:
+            return $product["htmlpro"];
             break;
-            case 86:
-                echo  $product86;
+        case 86:
+            return $product["htmlpro"];
             break;
-            case 87:
-                echo  $product87;
+        case 87:
+            return $product["htmlpro"];
             break;
-            case 88:
-                echo  $product88;
+        case 88:
+            return $product["htmlpro"];
             break;
-            case 89:
-                echo  $product89;
+        case 89:
+            return $product["htmlpro"];
             break;
-            case 90:
-                echo  $product90;
+        case 90:
+            return $product["htmlpro"];
             break;
-            case 91:
-                echo  $product91;
+        case 91:
+            return $product["htmlpro"];
             break;
-            case 92:
-                echo  $product92;
+        case 92:
+            return $product["htmlpro"];
             break;
-            case 93:
-                echo  $product93;
+        case 93:
+            return $product["htmlpro"];
             break;
-            case 94:
-                echo  $product94;
+        case 94:
+            return $product["htmlpro"];
             break;
-            case 95:
-                echo  $product95;
+        case 95:
+            return $product["htmlpro"];
             break;
-            case 96:
-                echo  $product96;
+        case 96:
+            return $product["htmlpro"];
             break;
-            case 97:
-                echo  $product97;
+        case 97:
+            return $product["htmlpro"];
             break;
-            case 98:
-                echo  $product98;
+        case 98:
+            return $product["htmlpro"];
             break;
-            case 99:
-                echo  $product99;
+        case 99:
+            return $product["htmlpro"];
             break;
-            case 100:
-                echo  $product100;
+        case 100:
+            return $product["htmlpro"];
             break;
-            case 101:
-                echo  $product101;
+        case 101:
+            return $product["htmlpro"];
             break;
-            case 102:
-                echo  $product102;
+        case 102:
+            return $product["htmlpro"];
             break;
-            case 103:
-                echo  $product103;
+        case 103:
+            return $product["htmlpro"];
             break;
-            case 104:
-                echo  $product104;
+        case 104:
+            return $product["htmlpro"];
             break;
-            case 105:
-                echo  $product105;
+        case 105:
+            return $product["htmlpro"];
             break;
-            case 106:
-                echo  $product106;
+        case 106:
+            return $product["htmlpro"];
             break;
-            case 107:
-                echo  $product107;
+        case 107:
+            return $product["htmlpro"];
             break;
-            case 108:
-                echo  $product108;
+        case 108:
+            return $product["htmlpro"];
             break;
-            case 109:
-                echo  $product109;
+        case 109:
+            return $product["htmlpro"];
             break;
-            case 110:
-                echo  $product110;
+        case 110:
+            return $product["htmlpro"];
             break;
-            case 111:
-                echo  $product111;
+        case 111:
+            return $product["htmlpro"];
             break;
-            case 112:
-                echo  $product112;
+        case 112:
+            return $product["htmlpro"];
             break;
-            case 113:
-                echo  $product113;
+        case 113:
+            return $product["htmlpro"];
             break;
-            case 114:
-                echo  $product114;
+        case 114:
+            return $product["htmlpro"];
             break;
-            case 115:
-                echo  $product115;
+        case 115:
+            return $product["htmlpro"];
             break;
-            case 116:
-                echo  $product116;
+        case 116:
+            return $product["htmlpro"];
             break;
-            case 117:
-                echo  $product117;
+        case 117:
+            return $product["htmlpro"];
             break;
-            case 118:
-                echo  $product118;
+        case 118:
+            return $product["htmlpro"];
             break;
-            case 119:
-                echo  $product119;
+        case 119:
+            return $product["htmlpro"];
             break;
-            case 120:
-                echo  $product120;
+        case 120:
+            return $product["htmlpro"];
             break;
-            case 121:
-                echo  $product121;
+        case 121:
+            return $product["htmlpro"];
             break;
-            case 122:
-                echo  $product122;
+        case 122:
+            return $product["htmlpro"];
             break;
-            case 123:
-                echo  $product123;
+        case 123:
+            return $product["htmlpro"];
             break;
-            case 124:
-                echo  $product124;
+        case 124:
+            return $product["htmlpro"];
             break;
-            case 125:
-                echo  $product125;
+        case 125:
+            return $product["htmlpro"];
             break;
-            case 126:
-                echo  $product126;
+        case 126:
+            return $product["htmlpro"];
             break;
-            }
+    }
+}
+
 ?>

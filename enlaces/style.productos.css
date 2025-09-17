@@ -228,7 +228,7 @@ body {
 stylo para no tener los links con las lineas azules
 */
 
-main section a{
+main a{
   text-decoration: none;
   color: black;
 }
